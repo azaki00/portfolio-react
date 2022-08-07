@@ -1,0 +1,42 @@
+.characterCard{
+    flex: 1 0 28%;
+    background-color: #292E41;
+    width: 300px;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin:1%;
+    padding: 1%;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.details{
+    align-items: center;
+    align-self: center;
+}
+.image{
+    padding: 1%;
+    align-items: center;
+    align-self: center;
+    background-color: #F2E7E2;
+    height: auto;
+    border-radius: 5px;
+}
+.image img{
+    width: 10vw;
+    
+}
+
+.imgname{
+    font-weight: bold;
+    color: black;
+    padding:1%;
+}
+
+@media screen and(max-width:800px){
+    .container{
+        flex: 1 0 40%;
+    }
+}

@@ -1,4 +1,21 @@
 .got button{
-    transform: translateY(500px);
-    padding: 5%;
+    position: relative;
+    transform: translateY(20px);
+    padding: 2%;
+}
+
+.viewer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.container{
+    background-color: #A7A7A7;
+}
+
+@media all (max-width:800px){
+    
 }

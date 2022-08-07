@@ -55,6 +55,7 @@ body {
     justify-content: space-around;
     flex-direction: row;
     padding:2%;
+    text-align: center;
 }
 
 .articles2{

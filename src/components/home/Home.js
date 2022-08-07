@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./home.css";
 import ArticleCard from "./ArticleCard";
-import Axios from "axios";
+
 
 const Home = () => {
   const [post, setPost] = useState("");
@@ -17,29 +17,29 @@ const Home = () => {
             <img
               className="artimg"
               src="https://images.unsplash.com/photo-1622737133809-d95047b9e673?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWluaW1hbCUyMHdhbGxwYXBlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
-            ></img>
+            ></img><p>
             Hi, I'm Ahmad, and this is my work. This is one of several projects
             i worked on. I decided to do one where i try to combine most of what
             i know so far in front end development here in one simple project. I
-            hope you enjoy!
+            hope you enjoy!</p>
           </article>
           <article className="art">
             <img
               className="artimg"
               src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a7fd6b8c-0542-4fd7-a062-164018eefe57/da5tdrw-0bd11c63-6d8d-4e70-9499-9f63bb62cb0f.jpg/v1/fill/w_1600,h_900,q_75,strp/4k_minimalist_wallpaper_3d_by_clover_da5tdrw-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvYTdmZDZiOGMtMDU0Mi00ZmQ3LWEwNjItMTY0MDE4ZWVmZTU3XC9kYTV0ZHJ3LTBiZDExYzYzLTZkOGQtNGU3MC05NDk5LTlmNjNiYjYyY2IwZi5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.JFe15ZNc12S00eaaSNYtUhmUYsttYgz3FQw9VqRQOgg"
-            ></img>
+            ></img><p>
             I'm trying to implement alot of functionalities i learned for the
-            past 4 months here into work.
+            past 4 months here into work.</p>
           </article>
           <article className="art">
             <img
               className="artimg"
               src="https://wallpaperaccess.com/full/99791.jpg"
-            ></img>
+            ></img><p>
             So without further ado, let's get to the magic... {<br />} Laboris
             consectetur mollit anim in sunt non quis. In consequat duis velit
             irure. Nisi non exercitation anim sunt laborum tempor nisi commodo
-            sint exercitation qui magna exercitation.
+            sint exercitation qui magna exercitation.</p>
           </article>
         </div>
         <div className="articles2">
