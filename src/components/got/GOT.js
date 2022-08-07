@@ -4,8 +4,13 @@ import { useState } from "react";
 import "./got.css";
 import Character from "./Character";
 
+
 const GOT = () => {
-  const [characters, setCharacters] = useState({});
+
+
+
+  
+  const [characters, setCharacters] = useState(null);
   const fetchData = () => {
     Axios.get(`https://thronesapi.com/api/v2/Characters`).then((res) => {
       setCharacters(res.data);
@@ -17,7 +22,7 @@ const GOT = () => {
       <div className="got">
         <button onClick={fetchData}>Generate Game of Thrones Characters</button>
       </div>
-      <div className="viewer">
+      {characters !== null && <div className="viewer">
         {characters.map( (we) => (
           <Character
             key={we?.id}
@@ -31,7 +36,7 @@ const GOT = () => {
             imageUrl={we?.imageUrl}
           />
         ))}
-      </div>
+      </div>}
     </div>
   );
 };

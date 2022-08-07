@@ -1,6 +1,5 @@
 .got button{
-    position: relative;
-    transform: translateY(20px);
+    margin: 2%;;
     padding: 2%;
 }
 
@@ -14,8 +13,6 @@
 
 .container{
     background-color: #A7A7A7;
+    margin-top: 4%;
 }
 
-@media all (max-width:800px){
-    
-}

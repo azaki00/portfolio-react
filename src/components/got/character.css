@@ -4,8 +4,8 @@
     width: 300px;
     color: antiquewhite;
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
+    justify-content: space-between;
     margin:1%;
     padding: 1%;
     border-radius: 12px;
@@ -24,19 +24,26 @@
     height: auto;
     border-radius: 5px;
 }
-.image img{
+.images img{
     width: 10vw;
     
 }
 
 .imgname{
     font-weight: bold;
-    color: black;
+    color: white;
     padding:1%;
 }
 
-@media screen and(max-width:800px){
-    .container{
-        flex: 1 0 40%;
-    }
+@media screen and (max-width: 500px) {
+  .characterCard {
+    font-size: 0.7em;
+    display: block;
+    flex-direction: column;
+    flex: 1 0 40%;
+  }
+  .image img{
+    height: 10vh;
+    width: auto;
+}
 }

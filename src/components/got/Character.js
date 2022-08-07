@@ -18,9 +18,13 @@ const Character = (props) => {
           <span>Family : {props?.family}</span>
           <br />
         </div>
-        <div className="image">
-        <div className="imgname"><span>{props?.image}</span></div>
-        <div><img src={`${props.imageUrl}`}></img></div>
+        <div className="images">
+          <div className="imgname">
+            <span>{props?.image}</span>
+          </div>
+          <div>
+            <img src={`${props.imageUrl}`}></img>
+          </div>
         </div>
       </div>
     </>
