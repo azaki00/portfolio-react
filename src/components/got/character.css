@@ -1,41 +1,49 @@
 .characterCard{
-    flex: 1 0 28%;
-    background-color: #292E41;
+    /* flex: 1 0 22.5%; */
+    font-family: "Dosis";
+    background-color: #fff;
     width: 300px;
-    color: antiquewhite;
+    color: #32292F;
+    font-weight: bold;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    /* border: 1px solid black; */
     margin:1%;
     padding: 1%;
     border-radius: 12px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
 .details{
-    align-items: center;
-    align-self: center;
+line-height: 2em;
+    text-align: left;
+    font-size: 0.8em;
 }
 .image{
+    
     padding: 1%;
-    align-items: center;
-    align-self: center;
+
     background-color: #F2E7E2;
     height: auto;
     border-radius: 5px;
 }
+.images{
+    display: flex;
+    justify-content: center;
+}
 .images img{
-    width: 10vw;
-    
+    width: 200px;
+    height: 200px;
 }
 
 .imgname{
     font-weight: bold;
-    color: white;
+    color: black ;
     padding:1%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .characterCard {
     font-size: 0.7em;
     display: block;

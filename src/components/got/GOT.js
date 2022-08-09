@@ -20,7 +20,7 @@ const GOT = () => {
   return (
     <div className="container">
       <div className="got">
-        <button onClick={fetchData}>Generate Game of Thrones Characters</button>
+        <button onClick={fetchData}>List Game of Thrones Characters</button>
       </div>
       {characters !== null && <div className="viewer">
         {characters.map( (we) => (

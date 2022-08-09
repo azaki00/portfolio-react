@@ -4,8 +4,18 @@ const Character = (props) => {
   return (
     <>
       <div className="characterCard">
+
+      <div className="images">
+          <div className="imgname">
+            {/* <span>{props?.image}</span> */}
+          </div>
+          <div>
+            <img src={`${props.imageUrl}`}></img>
+          </div>
+        </div>
+
         <div className="details">
-          <span>ID : {props?.id}</span>
+          <h2>ID : {props?.id}</h2>
           <br />
           <span>First Name : {props?.firstName}</span>
           <br />
@@ -18,14 +28,7 @@ const Character = (props) => {
           <span>Family : {props?.family}</span>
           <br />
         </div>
-        <div className="images">
-          <div className="imgname">
-            <span>{props?.image}</span>
-          </div>
-          <div>
-            <img src={`${props.imageUrl}`}></img>
-          </div>
-        </div>
+        
       </div>
     </>
   );

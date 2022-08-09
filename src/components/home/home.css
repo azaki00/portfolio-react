@@ -1,28 +1,31 @@
-body {
-  text-align: center;
+
+.homepage{
+    margin-top: 60px;
 }
-
-
 
 .artimg{
     width: 60%;
     height: auto;
     padding:1% 1% 5% 1%;
-    background-color: #F6F2E8;
+    background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 .name{
-    font-size: 3em;
-    letter-spacing: 0.5em;
-    padding: 0 0 2% 0;
-    background-color: #111111;
-    color: #fff;
+    font-family: "Dosis";
+    font-weight: 900;
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: 0.2em;
+    padding: 2% 0 2% 0;
+    background-color: #fff;
+    color: #32292F;
     transition: 0.5s;
 }
 .name:hover{
-    color: aqua;
+    background-color: #32292F;
+    color: #96E1D9;
     cursor: default;
 }
 
@@ -33,20 +36,24 @@ body {
 
 }
 
-.image{
+.imagey{
     background-color: #111111;
+    display: flex;
+    justify-content: center;
 }
 
 .art{
+    font-family: "Poppins";
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 27%;
-    background-color: #69667A;
+    background-color: #32292F;
     color: #fff;
     font-size: 1em;
     padding: 1%;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 
@@ -68,19 +75,43 @@ body {
     height: 3vh;
 }
 .art2{
+
     padding:2%;
     margin: 2%;
     display: flex;
     align-items: center;
-    background-color: #69667A;
+    background-color: #6EABB0;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .art2 p{
     padding:2%;
-    color:#fff;
+    color: #32292F;
     font-size: 1.1em;
 }
-/* .view{
-    height:10vh;
-    width: 20%;
-} */
+
+.view{
+    width: 30vh;
+}
+
+@media all and (max-width: 600px){
+    .articles{
+        display: flex;
+        flex-direction: column;
+    }
+    .art{
+        flex-direction: row;
+        width: fit-content;
+        margin-top: 10px;
+    }
+    .art p{
+        padding: 2%;
+    }
+
+    .art2{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}

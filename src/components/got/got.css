@@ -1,6 +1,25 @@
 .got button{
-    margin: 2%;;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     padding: 2%;
+    align-self: center;
+    background-color: #96E1D9;
+    color: #32292F;
+    font-size: 1.5em;
+    border: none;
+    transition: 0.5s;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+.got button:hover{
+    background-color: #32292F;
+    color:#fff;
+    /* color:#F74F4F; */
+    cursor: pointer;
 }
 
 .viewer{
@@ -12,7 +31,7 @@
 }
 
 .container{
-    background-color: #A7A7A7;
-    margin-top: 4%;
+    background-color: #6EABB0;
+    margin-top: 100px;
 }
 
